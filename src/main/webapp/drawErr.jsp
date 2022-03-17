@@ -13,6 +13,11 @@
 	<table border="0">
 			<tr>
 				<td>
+					<form action="main.jsp" method="post">
+					<input type="submit" value="메인화면">
+					</form>
+				</td>
+				<td>
 					<form action="withdraw.jsp" method="post">
 					<input type="submit" value="회원 탈퇴 재시도">
 					</form>

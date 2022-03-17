@@ -14,12 +14,12 @@
 			<tr>
 				<td>
 					<form action="main.jsp" method="post">
-					<input type="submit" value="메인화면">
+					<input type="submit" value="◀ 메인화면">
 					</form>
 				</td>
 				<td>
 					<form action="signup.jsp" method="post">
-					<input type="submit" value="다시 가입하기">
+					<input type="submit" value="다시 가입하기 ▶">
 					</td>
 				
 			</tr>			

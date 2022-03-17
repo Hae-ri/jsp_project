@@ -8,7 +8,6 @@
 <script type="text/javascript">
 	function checkFun()
 		{
-		
 		var f = document.user_info;
 		
 		
@@ -44,8 +43,7 @@
 		<hr>
 		<input type="submit" value="가입하기"> &nbsp;&nbsp;&nbsp;
 		<input type="reset" value="다시작성">
-		
-	
+			
 	</form>
 </body>
 </html>
