@@ -21,12 +21,12 @@
 		String user = "root";
 		String password = "1234";
 		Connection conn = null;
-		Statement sm = null;
+		//Statement sm = null;
 
 		try {
 			Class.forName(driverName);
 			conn = DriverManager.getConnection(url, user, password);
-			sm = conn.createStatement(); // sql을 실행시켜주는 객체 생성(statement)
+			Statement sm = conn.createStatement(); // sql을 실행시켜주는 객체 생성(statement)
 			
 			int flag = sm.executeUpdate(sql); // sql문이 성공적으로 실행되면 1을 반환
 			if(flag ==1){
@@ -43,9 +43,9 @@
 			out.println("SQL 오류");
 		} finally {
 			try {
-				if(sm != null) {
-					sm.close();
-				}
+				//if(sm != null) {
+				//	sm.close();
+				//}
 				if(conn != null) {
 					conn.close();
 				}
