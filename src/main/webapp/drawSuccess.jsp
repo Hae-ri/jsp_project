@@ -20,6 +20,7 @@
 				<td>
 					<form action="signup.jsp" method="post">
 					<input type="submit" value="다시 가입하기 ▶">
+					</form>
 					</td>
 				
 			</tr>			

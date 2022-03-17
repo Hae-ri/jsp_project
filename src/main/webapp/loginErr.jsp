@@ -16,6 +16,7 @@
 				<td>
 					<form action="login.jsp" method="post">
 					<input type="submit" value="관리자 로그인 이용 ▶">
+					</form>
 					</td>
 				
 			</tr>			

@@ -36,6 +36,7 @@
 				<td>
 					<form action="logout.jsp" method="post">
 					<input type="submit" value="관리자 로그아웃 ▶">
+					</form>
 					</td>
 				
 			</tr>			

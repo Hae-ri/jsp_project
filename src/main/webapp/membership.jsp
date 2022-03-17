@@ -21,6 +21,7 @@
 				<td>
 					<form action="withdraw.jsp" method="post">
 					<input type="submit" value="È¸¿ø Å»Åð ¢º">
+					</form>
 					</td>
 				
 			</tr>			
